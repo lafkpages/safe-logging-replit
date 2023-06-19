@@ -4,3 +4,5 @@
 .replit
 replit.nix
 test.js
+src
+tsconfig.json
