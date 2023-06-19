@@ -1,4 +1,4 @@
-const { makeConsoleSafe, forbiddenBitcoinStr } = require('./index');
+const { makeConsoleSafe, forbiddenBitcoinStr } = require('./dist');
 
 makeConsoleSafe(console);
 

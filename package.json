@@ -1,14 +1,25 @@
 {
   "name": "safe-logging-replit",
-  "version": "1.2.7",
+  "version": "1.3.0",
   "description": "A wrapper for the Node.js console to safely log strings to the console avoiding DoS vulnerabilities on Replit.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js",
+    "build": "tsc"
   },
   "keywords": [
-    "replit", "vuln", "safe", "exploit", "patch", "repl", "it"
+    "replit",
+    "vuln",
+    "safe",
+    "exploit",
+    "patch",
+    "repl",
+    "it"
   ],
   "author": "LuisAFK",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.3.1",
+    "typescript": "^5.1.3"
+  }
 }
