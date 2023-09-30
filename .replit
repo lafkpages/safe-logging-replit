@@ -2,6 +2,8 @@ entrypoint = "index.js"
 
 hidden = [".config", "package-lock.json"]
 
+modules = ["nodejs-18:v3-20230608-f4cd419"]
+
 [interpreter]
 command = [
     "prybar-nodejs",
