@@ -1,6 +1,11 @@
 entrypoint = "index.js"
 
-hidden = [".config", "package-lock.json"]
+hidden = [
+  ".config",
+  "package-lock.json",
+  ".gitignore",
+  "dist"
+]
 
 modules = ["nodejs-18:v3-20230608-f4cd419"]
 
