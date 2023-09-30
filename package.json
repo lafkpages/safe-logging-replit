@@ -8,6 +8,9 @@
     "test": "node test.js",
     "build": "tsc"
   },
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "replit",
     "vuln",
