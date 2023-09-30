@@ -21,9 +21,9 @@ message = "We see that you are using require(...) inside your code. We currently
 channel = "stable-23_05"
 
 [env]
-XDG_CONFIG_HOME = "/home/runner/$REPL_SLUG/.config"
-PATH = "/home/runner/$REPL_SLUG/.config/npm/node_global/bin:/home/runner/$REPL_SLUG/node_modules/.bin"
-npm_config_prefix = "/home/runner/$REPL_SLUG/.config/npm/node_global"
+XDG_CONFIG_HOME = "$REPL_HOME/.config"
+PATH = "$XDG_CONFIG_HOME/npm/node_global/bin:$REPL_HOME/node_modules/.bin"
+npm_config_prefix = "$XDG_CONFIG_HOME/npm/node_global"
 
 [gitHubImport]
 requiredFiles = [".replit", "replit.nix", ".config", "package.json", "package-lock.json"]
